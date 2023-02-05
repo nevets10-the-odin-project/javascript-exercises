@@ -5,7 +5,7 @@ const convertToCelsius = function (fahrenheit) {
 };
 
 const convertToFahrenheit = function (celsius) {
-	const fahrenheit = (celsius * (5 / 9) + 32).toFixed(1);
+	const fahrenheit = celsius * (5 / 9) + 32;
 	if (Number.isInteger(fahrenheit)) return fahrenheit;
 	return +fahrenheit.toFixed(1);
 };
