@@ -26,7 +26,13 @@ const power = function (number, power) {
 	return number ** power;
 };
 
-const factorial = function () {};
+const factorial = function (number) {
+	let factorial = 1;
+	for (let i = 1; i >= number; i++) {
+		factorial *= number;
+	}
+	return factorial;
+};
 
 // Do not edit below this line
 module.exports = {
