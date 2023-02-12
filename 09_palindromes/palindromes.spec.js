@@ -18,7 +18,7 @@ describe("palindromes", () => {
 			true
 		);
 	});
-	test.skip("doesn't just always return true", () => {
+	test("doesn't just always return true", () => {
 		expect(palindromes("ZZZZ car, a man, a maracaz.")).toBe(false);
 	});
 });
