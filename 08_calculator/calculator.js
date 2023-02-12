@@ -22,7 +22,9 @@ const multiply = function (array) {
 	return product;
 };
 
-const power = function () {};
+const power = function (number, power) {
+	return number ** power;
+};
 
 const factorial = function () {};
 
