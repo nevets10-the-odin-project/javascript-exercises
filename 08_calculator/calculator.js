@@ -27,11 +27,11 @@ const power = function (number, power) {
 };
 
 const factorial = function (number) {
-	let factorial = 1;
-	for (let i = 1; i >= number; i++) {
-		factorial *= number;
+	let result = 1;
+	for (let i = 1; i <= number; i++) {
+		result *= number;
 	}
-	return factorial;
+	return result;
 };
 
 // Do not edit below this line
